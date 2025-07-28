@@ -49,6 +49,7 @@ header{
     color: #fff;
     padding: 10px 15px;
     transition: background-color 0.3s;
+    font-weight: 200;
 }
 
 #navbar a:hover {
@@ -57,7 +58,7 @@ header{
 /* ------- */
 
 .main {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   z-index: -100;
   background-color: #343434;
@@ -71,7 +72,7 @@ header{
 }
 
 .footer {
-  width: 1920px;
+  width: 100%;
   padding: 48px 40px;
   margin: 0 auto;
   display: flex;
